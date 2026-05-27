@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de empleo</title>
+</head>
+<body>
+        <h1>FORMULARIO DE EMPLEO</h1>
+        <form action="">
+        <h2>Datos del aspirante</h2>
+
+         <label for="nombre">nombre:</label>
+         <input type="text" id="nombre" name="nombre">
+         <br><br>
+
+         <label for="Apellido">Apellido:
+         </label>
+         <input type="text" id="Apellido" name="Apellido">
+         <br><br>
+         <label for="correoElectronico" name="email" placeholder="correo@ejemplo.com" required></label>
+    </form>
+    <br><br>
+    <from action="">
+     <label for="Disponibilidad">fecha disponibilidad</label>
+     <input type="number" id="años" name="años" min="0" max="55">
+     <br><br>
+    </from>
+    <form action="">
+        <label for="estudio">---NIVEL DE ESTUDIO</label>
+      <select name="estudio" id="estudio"></select>
+      <option value="">Seleccione una opcion</option>
+      <option value="BA">Basico</option>
+      <option value="AL">Alto</option>
+      <option value="SU">Superior</option>
+      <br><br>
+      <h3>lenguaje de programacion que dominas</h3>
+      <input type="checkbox" id="programacion" name="programacion" required>
+        <label for="programacion">java</label>
+        <input type="checkbox" id="lenguaje" name="lenguaje" required>
+        <label for="lenguaje">python</label>
+        <input type="checkbox" id="java" name="javas" required>
+        <label for="java">java script</label>
+        <br><br>
+        <label for="mensaje">dejanos tu opinion</label>
+        <br>
+            <textarea name="mensaje" id="mensaje" rows="4" cols="50" placeholder="escribe aqui..."></textarea>
+            <br>
+            <button type="submit">Enviar formulario</button>
+            <button type="reset">limpiar formulario</button>
+        </label>
+    </form>
+    
+</body>
+</html>
